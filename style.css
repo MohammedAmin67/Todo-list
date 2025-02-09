@@ -1,0 +1,42 @@
+.js-name,.js-calendar{
+    padding:6px;
+    font-size:15px;
+}
+
+
+.add-button{
+    background-color: goldenrod;
+    border: none;
+    color:white;
+    font-family: Arial;
+    font-weight:bold;
+    cursor:pointer;
+
+}
+
+.delete-button{
+    background-color: rgb(100,0,0);
+    border: none;
+    color: white;
+    font-weight:bold;
+    font-family: Arial;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom:10px;
+   
+    
+}
+
+.todo-grid,.todo-grid-input{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-items:center;
+
+}
+
+.todo-grid-input{
+    margin-bottom:10px;
+    align-items:stretch;
+}
